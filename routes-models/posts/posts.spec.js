@@ -36,6 +36,7 @@ describe('This is to add a new post', () => {
             user_id: 1, 
             link: 0
         })
+        console.log(response)
         expect(response.status).toBe(201)
     })
 })
